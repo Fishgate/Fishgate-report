@@ -3,3 +3,64 @@ body{
     color: #6a8e9a;
     background: #181f21;
 }
+
+.header{
+    background: #101617;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    
+    -webkit-box-shadow: 0 1px 2px #000;
+    -moz-box-shadow: 0 1px 2px #000;
+    -o-box-shadow: 0 1px 2px #000;
+}
+.contentwrap{
+    padding: 120px 0 20px 0;
+}
+
+ .left{float: left;}
+ .right{float: right;}
+ 
+ /*=================== HEADER STUFF ===============*/
+ #logo{
+     width: 150px;
+ }
+ #logo img{
+     max-width: 100%;
+     min-width: 100%;
+     padding: 3px 0 0 0;
+ }
+ .bar{
+     width: 20%;
+     height: 3px;
+ }
+.bg-blue{background: #5cdeff;}
+.bg-pink{background: #fc29a3;}
+.bg-orange{background: #f60;}
+.bg-yellow{background: #fc0;}
+.bg-green{background: #9fc215;}
+.bg-red{background: #d43f3a;}
+
+
+ /*=================== CHART TITLE ===============*/
+
+ .pos-rel{
+     position: relative;
+ }
+ .title{
+     width: 190px;
+     position: absolute;
+     left: 145px;
+     top: 190px;
+     text-align: center
+ }
+ .title p{
+     background: #1785e6;
+     color: #fff;
+     display: inline-block;
+     padding: 5px 10px;
+     
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -o-border-radius: 5px;
+ }

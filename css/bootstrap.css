@@ -322,7 +322,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: /*#428bca;*/#6a8e9a;
   text-decoration: none;
 }
 
@@ -5190,7 +5190,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  color: #ffffff;
+  color: #333;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
